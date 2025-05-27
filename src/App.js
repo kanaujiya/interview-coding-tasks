@@ -12,11 +12,15 @@ import GetRadioButtonData from "./components/GetRadioButtonData";
 import CalculatorApp from "./components/CalculatorApp";
 import StopWatchApp from "./components/StopWatchApp";
 import ReduxToolkitApp from "./components/ReduxToolkit/ReduxToolkitApp";
+import CustomHook from "./components/CustomHook/CustomHook";
+import DebouncingFunctionality from "./components/DebouncingFunctionality";
+import ChipInput from "./components/ChipsInput/ChipInput";
+
 
 function App() {
   return (
     <div className="container">
-      <ReduxToolkitApp />
+      <ChipInput />
     </div>
   );
 }

@@ -13,7 +13,7 @@ const CalculatorApp = () => {
   };
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
-      <p>Tatal: {total}</p>
+      <p>Total: {total}</p>
       <input
         type="text"
         name="number"

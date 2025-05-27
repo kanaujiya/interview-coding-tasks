@@ -1,22 +1,20 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const StopWatchApp = () => {
   const [timer, setTimer] = useState(0);
-  const timerRef = useRef(null);
-
+  const timerRef = useRef();
   const handleStart = () => {
-    if (timerRef.current != null) {
+    if (timerRef.current == null) {
       timerRef.current = setInterval(() => {
-        setTimer((prev) => prev + 1000);
+        setTimer((prev) => prev + 1);
       }, 1000);
     }
   };
 
-  const getFormatTimer = () => {
-    const date = new Date(timer);
-    // console.log(date,date.toISOString.substr(11,8));
-    return date.toISOString.slice(11,19);
-  };
+  const setFormat = () =>{
+    
+    return timer
+  }
   return (
     <div
       style={{
@@ -26,7 +24,7 @@ const StopWatchApp = () => {
         alignItems: "center",
       }}
     >
-      <h2>{getFormatTimer()}</h2>
+      <h2>{setFormat()}</h2>
       <div style={{ display: "flex", gap: "10px" }}>
         <button onClick={handleStart}>Start</button>
         <button>Pause</button>

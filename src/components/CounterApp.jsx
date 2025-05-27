@@ -5,7 +5,6 @@ const CounterApp = () => {
   const intervalInfo = useRef(null);
 
   const startCount = () => {
-    console.log(intervalInfo.current);
     if (!intervalInfo.current) {
       intervalInfo.current = setInterval(() => {
         setCount((count) => count + 1);
@@ -19,7 +18,7 @@ const CounterApp = () => {
   };
 
   const stopCount = () => {
-    clearInterval();
+    clearInterval(intervalInfo.current);
     setCount(0);
   };
   return (
