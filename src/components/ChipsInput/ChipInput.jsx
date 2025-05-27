@@ -26,7 +26,7 @@ const ChipInput = () => {
         margin: "40px 0",
       }}
     >
-      <h2>Chips Input</h2>
+      <h2>Chips Inputs</h2>
       <input
         type="text"
         placeholder="Type a chip and press tag"
