@@ -15,12 +15,13 @@ import ReduxToolkitApp from "./components/ReduxToolkit/ReduxToolkitApp";
 import CustomHook from "./components/CustomHook/CustomHook";
 import DebouncingFunctionality from "./components/DebouncingFunctionality";
 import ChipInput from "./components/ChipsInput/ChipInput";
-
+import FileExplorer from "./components/FileExplorerApp/FileExplorerApp.jsx";
+import ControlledFormHandling from "./components/ControlledFormHandling/ControlledFormHandling.jsx";
 
 function App() {
   return (
     <div className="container">
-      <ChipInput />
+      <ControlledFormHandling />
     </div>
   );
 }

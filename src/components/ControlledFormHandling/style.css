@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+.form-input label {
+  text-align: start;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form-input {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  margin-bottom: 20px;
+}
