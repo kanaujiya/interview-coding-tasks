@@ -17,11 +17,14 @@ import DebouncingFunctionality from "./components/DebouncingFunctionality";
 import ChipInput from "./components/ChipsInput/ChipInput";
 import FileExplorer from "./components/FileExplorerApp/FileExplorerApp.jsx";
 import ControlledFormHandling from "./components/ControlledFormHandling/ControlledFormHandling.jsx";
+import CounterWithUndo from "./components/CounterWithUndo/CounterWithUndo.jsx";
+import ClientSidePaginationApp from "./components/ClientSidePagination/ClientSidePaginationApp.jsx";
+
 
 function App() {
   return (
     <div className="container">
-      <ControlledFormHandling />
+      <ClientSidePaginationApp />
     </div>
   );
 }
