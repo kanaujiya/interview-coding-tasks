@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
-import ProgressBar from "./components/ProgressBar";
-import "./styles.css";
-export default function App() {
+import React,{ useEffect, useState } from "react";
+import ProgressBar from "./ProgressBar.jsx";
+import "./style.css";
+export default function ProgressPage() {
   const [value, setValue] = useState(0);
   const [status, setStatus] = useState(false);
   useEffect(() => {

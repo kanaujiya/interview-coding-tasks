@@ -19,12 +19,14 @@ import FileExplorer from "./components/FileExplorerApp/FileExplorerApp.jsx";
 import ControlledFormHandling from "./components/ControlledFormHandling/ControlledFormHandling.jsx";
 import CounterWithUndo from "./components/CounterWithUndo/CounterWithUndo.jsx";
 import ClientSidePaginationApp from "./components/ClientSidePagination/ClientSidePaginationApp.jsx";
+import ProgressPage from "./components/ProgressBar/ProgressPage.jsx";
+import ShowRandomDetails from "./components/ShowRandomDetails/ShowRandomDetails.jsx";
 
 
 function App() {
   return (
     <div className="container">
-      <ClientSidePaginationApp />
+      <ShowRandomDetails />
     </div>
   );
 }

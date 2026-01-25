@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+}
+button {
+  border: none;
+  padding: 15px 30px;
+  background-color: crimson;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.user-details-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid white;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: crimson;
+  color: white;
+}
+.user-details-card div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
