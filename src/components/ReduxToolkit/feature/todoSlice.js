@@ -20,7 +20,6 @@ const todoSlice = createSlice({
       const todoToUpdate = state.todos.find((todo) => todo.id === id);
 
       if (todoToUpdate) {
-        console.log(todoToUpdate.task, action.payload);
         todoToUpdate.task = task;
       }
     },

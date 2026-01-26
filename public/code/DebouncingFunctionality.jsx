@@ -53,6 +53,8 @@ const DebouncingFunctionality = () => {
           </tr>
         </thead>
         <tbody>
+          {loading && <p>Loading...</p>}
+          {error && <p>{error}</p>}
           {data?.map((item, i) => {
             return (
               <tr key={item.id}>

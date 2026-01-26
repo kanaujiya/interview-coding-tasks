@@ -11,14 +11,12 @@ const ClickDeleteItem = () => {
 
   // using filter method delete
   const handleFilterDelete = (id) => {
-    console.log("Deleted ID:", id);
     const filteredList = lists.filter((list) => list.id !== id);
     setLists(filteredList);
   };
 
   //   using splice method
   const handleSliceDelete = (index) => {
-    console.log("Deleted ID:", index);
     const updatedArray = [...lists];
     updatedArray.splice(index, 1);
     setLists(updatedArray);

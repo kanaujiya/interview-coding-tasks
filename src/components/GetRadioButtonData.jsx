@@ -4,8 +4,6 @@ const GetRadioButtonData = () => {
   const [game, setGame] = useState("Cricket");
   const [day, setDay] = useState("Sunday");
 
-  console.log(game, day);
-
   return (
     <div>
       <h2>Select Game</h2>

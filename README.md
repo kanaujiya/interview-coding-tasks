@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# React Interview Coding Tasks & Playground
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A comprehensive collection of React coding tasks, interview questions, and UI components. This project is built to demonstrate best practices in React development, including state management, custom hooks, routing, and performance optimization.
 
-## Available Scripts
+## 🚀 Live Demo
 
-In the project directory, you can run:
+[Live Deployment on Vercel](https://your-vercel-link-here.vercel.app)
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Component Playground**: Experience 20+ interactive React tasks ranging from simple counters to complex file explorers.
+- **Code Explorer**: View the source code for each task directly within the application with syntax highlighting.
+- **State Management**: Examples using React State, Redux Toolkit, and Custom Hooks.
+- **Responsive Design**: Built with React Bootstrap and custom CSS for a premium feel.
+- **Production Ready**: Optimized with code splitting, lazy loading, and professional routing.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **Core**: React 19, React Router 7
+- **State**: Redux Toolkit
+- **Styling**: Bootstrap 5, React Bootstrap, Vanilla CSS
+- **APIs**: Axios for data fetching
+- **Utilities**: React Syntax Highlighter
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🏁 Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js >= 18.0.0
+- npm or yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kanaujiya/interview-coding-tasks.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd interview-coding-tasks
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+### Running Locally
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To start the development server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This runs a custom sync script to generate a manifest of all components and then starts the React development server.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📦 Deployment
 
-## Learn More
+This project is configured for deployment on **Vercel**.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Configuration
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `vercel.json`: Handles SPA routing to ensure page refreshes work correctly.
+- `package.json`: Specifies Node.js engine and deployment scripts.
 
-### Code Splitting
+### Steps to Deploy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Push your code to a GitHub repository.
+2. Connect your repository to Vercel.
+3. Vercel will automatically detect the settings. Ensure the **Build Command** is `npm run build` and **Output Directory** is `build`.
+4. Deploy!
 
-### Analyzing the Bundle Size
+## 📂 Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- `src/components/`: Individual task components.
+- `src/config/`: Configuration for tasks and routes.
+- `src/layout/`: Global layout components (Sidebar, Navbar).
+- `src/pages/`: Main entry pages (Dashboard).
+- `public/code/`: Synced source code for live viewing.
+- `scripts/`: Utility scripts for build/sync.
 
-### Making a Progressive Web App
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-### Advanced Configuration
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License.

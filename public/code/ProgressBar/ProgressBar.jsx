@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const ProgressBar = ({ value = 0, handleStatus }) => {
   const [percent, setPercent] = useState(value);
@@ -8,7 +8,7 @@ const ProgressBar = ({ value = 0, handleStatus }) => {
     if (value >= 100) {
       handleStatus();
     }
-  }, [value]);
+  }, [value, handleStatus]);
 
   return (
     <div className="progress">

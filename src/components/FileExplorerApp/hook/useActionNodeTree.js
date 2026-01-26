@@ -21,11 +21,11 @@ const useActionNodeTree = () => {
     if (!tree.children) return tree;
 
     const filteredChildren = tree.children.filter(
-      (child) => child.id !== folderId
+      (child) => child.id !== folderId,
     );
 
     const updatedChildren = filteredChildren.map((child) =>
-      removeNode(child, folderId)
+      removeNode(child, folderId),
     );
 
     return {
@@ -35,7 +35,6 @@ const useActionNodeTree = () => {
   };
 
   const editNode = (tree, folderId, newName, isFolder) => {
-    console.log(tree,folderId,newName,isFolder);
     if (tree.id === folderId && tree.isFolder === isFolder) {
       tree.name = newName;
       return tree;

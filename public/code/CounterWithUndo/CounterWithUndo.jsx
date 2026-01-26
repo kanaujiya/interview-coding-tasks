@@ -8,9 +8,9 @@ const CounterWithUndo = () => {
   const handleAction = (action) => {
     setHistory((prev) => [...prev, counter]);
     setCounter((prev) => {
-      if (action == "Increment") return prev + 1;
-      if (action == "Decrement") return prev - 1;
-      if (action == "Multiply") return prev * 2;
+      if (action === "Increment") return prev + 1;
+      if (action === "Decrement") return prev - 1;
+      if (action === "Multiply") return prev * 2;
       return prev;
     });
   };

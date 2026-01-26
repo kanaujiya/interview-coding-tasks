@@ -12,11 +12,10 @@ const SelectTagOption = () => {
     await axios
       .get("https://jsonplaceholder.typicode.com/users/")
       .then((response) => {
-        console.log(response.data);
         setUsers(response.data);
       })
       .catch((err) => {
-        console.log(err.message);
+        // Handle error silently or with UI notification
       });
   };
   return (
