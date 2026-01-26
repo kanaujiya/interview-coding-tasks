@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.btn-wrapper button {
+  background: gray;
+  color: white;
+  padding: 10px 20px;
+}
+.history {
+  margin-top: 15px;
+}

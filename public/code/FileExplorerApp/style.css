@@ -1,0 +1,27 @@
+.App {
+  margin: 2rem 10rem;
+}
+.containers {
+  padding-left: 25px;
+}
+.folder {
+  cursor: pointer;
+  width: 300px;
+  background-color: lavender;
+  padding: 5px;
+  margin: 5px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.file {
+  cursor: pointer;
+  width: 300px;
+  display: flex;
+  margin-top: 5px;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.action-wrapper {
+  display: flex;
+  gap: 5px;
+}

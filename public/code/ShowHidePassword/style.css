@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.wrapper {
+  position: absolute;
+  right: 14.5rem;
+  top: 5rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

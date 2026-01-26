@@ -1,0 +1,64 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.searchBar {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.searchBar > input {
+  width: 200px;
+  height: 25px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.pagination > button {
+  padding: 5px 10px;
+}
+.select__limit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.select__limit > limits {
+  width: 50px;
+  height: 50px;
+  padding: 5px 10px;
+}
+.select_page {
+  background-color: crimson;
+  color: white;
+  border: none;
+}
+.products__wrapper {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.products__wrapper .product {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  background-color: crimson;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+}
+.products__wrapper .product img {
+  width: 8rem;
+  height: 8rem;
+}

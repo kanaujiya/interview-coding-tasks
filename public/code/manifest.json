@@ -1,0 +1,104 @@
+{
+  "Accordion": [
+    "Accordion.jsx",
+    "style.css"
+  ],
+  "CalculatorApp.jsx": [
+    "CalculatorApp.jsx"
+  ],
+  "CallApiListTable.jsx": [
+    "CallApiListTable.jsx"
+  ],
+  "ChipsInput": [
+    "ChipInput.jsx",
+    "components/ChipList.jsx"
+  ],
+  "ClickChangeBodyColor.jsx": [
+    "ClickChangeBodyColor.jsx"
+  ],
+  "ClickChangeColor.jsx": [
+    "ClickChangeColor.jsx"
+  ],
+  "ClickDeleteItem.jsx": [
+    "ClickDeleteItem.jsx"
+  ],
+  "ClickPanelShowHide.jsx": [
+    "ClickPanelShowHide.jsx"
+  ],
+  "ClientSidePagination": [
+    "ClientSidePaginationApp.css",
+    "ClientSidePaginationApp.jsx"
+  ],
+  "ControlledFormHandling": [
+    "ControlledFormHandling.jsx",
+    "style.css"
+  ],
+  "CounterApp.jsx": [
+    "CounterApp.jsx"
+  ],
+  "CounterWithUndo": [
+    "CounterWithUndo.jsx",
+    "style.css"
+  ],
+  "CustomHook": [
+    "CustomHook.jsx",
+    "useFetch.jsx"
+  ],
+  "DebouncingFunctionality.jsx": [
+    "DebouncingFunctionality.jsx"
+  ],
+  "FetchApi": [
+    "FetchApi.jsx",
+    "style.css"
+  ],
+  "FileExplorerApp": [
+    "components/FolderStructure.jsx",
+    "data/FileExplorer.js",
+    "FileExplorerApp.jsx",
+    "hook/useActionNodeTree.js",
+    "style.css"
+  ],
+  "GetRadioButtonData.jsx": [
+    "GetRadioButtonData.jsx"
+  ],
+  "ProgressBar": [
+    "ProgressBar.jsx",
+    "ProgressPage.jsx",
+    "style.css"
+  ],
+  "ReduxToolkit": [
+    "components/AddTodo.jsx",
+    "components/ListTodo.jsx",
+    "feature/todoSlice.js",
+    "pages/TodoPage.jsx",
+    "ReduxToolkitApp.js",
+    "store/store.js"
+  ],
+  "SelectOptChangeBodyColor.jsx": [
+    "SelectOptChangeBodyColor.jsx"
+  ],
+  "SelectOptChangeColor.jsx": [
+    "SelectOptChangeColor.jsx"
+  ],
+  "SelectTagOption.jsx": [
+    "SelectTagOption.jsx"
+  ],
+  "ShowHidePassword": [
+    "ShowHidePassword.jsx",
+    "style.css"
+  ],
+  "ShowRandomDetails": [
+    "ShowRandomDetails.jsx",
+    "style.css"
+  ],
+  "StopWatchApp.jsx": [
+    "StopWatchApp.jsx"
+  ],
+  "SyncTwoInput.jsx": [
+    "SyncTwoInput.jsx"
+  ],
+  "ToggleBox": [
+    "style.css",
+    "ToggleBox.jsx"
+  ]
+}

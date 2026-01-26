@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container-btn {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.box {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: crimson;
+  color: white;
+}

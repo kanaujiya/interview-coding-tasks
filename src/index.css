@@ -1,23 +1,83 @@
+:root {
+  --primary-color: #0d6efd;
+  --secondary-color: #6c757d;
+  --bg-light: #f8f9fa;
+  --card-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --enterprise-shadow:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --primary-gradient: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+  --surface-color: #ffffff;
+  --text-main: #212529;
+  --text-muted: #6c757d;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-light);
+  color: var(--text-main);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
+/* Enterprise UI Utilities */
+.enterprise-card {
+  background: var(--surface-color);
+  border: none;
+  border-radius: 12px;
+  box-shadow: var(--card-shadow);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
-section {
-  border: 1px solid black;
-  padding: 10px 25px;
+
+.enterprise-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--enterprise-shadow);
 }
+
+.hero-gradient {
+  background: var(--primary-gradient);
+  color: white;
+  padding: 4rem 2rem;
+  border-radius: 24px;
+  margin-bottom: 3rem;
+}
+
+.stat-card {
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 16px;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.category-pill {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.has-transitions {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.extra-small {
+  font-size: 0.65rem;
+  font-weight: 500;
+}
+
