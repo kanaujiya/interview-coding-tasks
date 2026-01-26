@@ -16,7 +16,7 @@ const ClickChangeBodyColor = () => {
   return (
     <div
       style={Styles.fullScreen}
-      onClick={() => setColor(color == "crimson" ? "blue" : "crimson")}
+      onClick={() => setColor(color === "crimson" ? "blue" : "crimson")}
     >
       <div className="container">
         <h2>Interview Question 9</h2>

@@ -6,7 +6,7 @@ const CalculatorApp = () => {
   const [total, setTotal] = useState();
 
   const handleAddition = () => {
-    if (firstNum != undefined && secondNum != undefined) {
+    if (firstNum !== undefined && secondNum !== undefined) {
       const total = Number(firstNum) + Number(secondNum);
       setTotal(total);
     }

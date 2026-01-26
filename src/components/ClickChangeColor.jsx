@@ -19,7 +19,7 @@ const ClickChangeColor = () => {
       <h2>Interview Question 8, 10 and 11</h2>
       <div
         style={Styles.box}
-        onClick={() => setColor(color == "blue" ? "crimson" : "blue")}
+        onClick={() => setColor(color === "blue" ? "crimson" : "blue")}
       ></div>
       <div style={{ marginTop: "50px" }}>
         <div style={{ margin: "25px" }}>
@@ -27,7 +27,7 @@ const ClickChangeColor = () => {
             <input
               type="radio"
               id="input"
-              checked={bodyColor == "red"}
+              checked={bodyColor === "red"}
               value="red"
               onChange={(e) => setBodyColor(e.target.value)}
             />

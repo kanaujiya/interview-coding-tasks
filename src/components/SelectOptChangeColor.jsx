@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const SelectOptChangeColor = () => {
   const [bgColor, setBgColor] = useState("white");
@@ -10,7 +10,7 @@ const SelectOptChangeColor = () => {
         <option value="blue">Blue</option>
         <option value="green">Green</option>
       </select>
-      <p style={{ color: bgColor == "white" ? "black" : bgColor }}>
+      <p style={{ color: bgColor === "white" ? "black" : bgColor }}>
         Hello World
       </p>
       <div

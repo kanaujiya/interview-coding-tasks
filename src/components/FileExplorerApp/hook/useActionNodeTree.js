@@ -1,6 +1,6 @@
 const useActionNodeTree = () => {
   const insertNode = (tree, folderId, item, isFolder) => {
-    if (tree.id == folderId && tree.isFolder) {
+    if (tree.id === folderId && tree.isFolder) {
       tree.children.unshift({
         id: Date.now(),
         name: item,
@@ -36,7 +36,7 @@ const useActionNodeTree = () => {
 
   const editNode = (tree, folderId, newName, isFolder) => {
     console.log(tree,folderId,newName,isFolder);
-    if (tree.id == folderId && tree.isFolder === isFolder) {
+    if (tree.id === folderId && tree.isFolder === isFolder) {
       tree.name = newName;
       return tree;
     }

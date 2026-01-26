@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const SelectOptChangeBodyColor = () => {
-  const [color, setColor] = useState([
+  const [color] = useState([
     { id: 1, color: "red" },
     { id: 4, color: "crimson" },
     { id: 2, color: "blue" },
