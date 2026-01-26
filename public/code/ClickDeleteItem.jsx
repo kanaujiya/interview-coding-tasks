@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const ClickDeleteItem = () => {
   const [lists, setLists] = useState([
@@ -10,10 +10,10 @@ const ClickDeleteItem = () => {
   ]);
 
   // using filter method delete
-  const handleFilterDelete = (id) => {
-    const filteredList = lists.filter((list) => list.id !== id);
-    setLists(filteredList);
-  };
+  // const handleFilterDelete = (id) => {
+  //   const filteredList = lists.filter((list) => list.id !== id);
+  //   setLists(filteredList);
+  // };
 
   //   using splice method
   const handleSliceDelete = (index) => {

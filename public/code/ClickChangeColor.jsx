@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const ClickChangeColor = () => {
   const [color, setColor] = useState("blue");
@@ -38,7 +38,7 @@ const ClickChangeColor = () => {
               type="radio"
               id="input"
               value="green"
-              checked={bodyColor == "green"}
+              checked={bodyColor === "green"}
               onChange={(e) => setBodyColor(e.target.value)}
             />
             Green

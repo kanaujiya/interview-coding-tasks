@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import useFetch from "./useFetch";
 
 const CustomHook = () => {
@@ -10,7 +9,7 @@ const CustomHook = () => {
   if (loading) return <h3>Loading...</h3>;
 
   if (error) return <h3>{error}</h3>;
-  
+
   return (
     <div>
       <table style={{ textAlign: "center" }}>
